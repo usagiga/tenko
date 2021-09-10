@@ -11,6 +11,15 @@
 
 ./tenko.sh [url or ipaddr]
 
+## これでもよくないか
+
+```sh
+ping -c 3 -i 1 1.1.1.1 | xargs -I\$ date '+%Y/%m/%d %H:%M:%S $'
+```
+
+……確かに？
+
+
 ## LICENSE
 
 MIT
