@@ -14,7 +14,7 @@
 ## これでもよくないか
 
 ```sh
-ping -c 3 -i 1 1.1.1.1 | xargs -I\$ date '+%Y/%m/%d %H:%M:%S $'
+ping -i 600 example.com | xargs -I\$ date '+%Y/%m/%d %H:%M:%S $'
 ```
 
 ……確かに？
